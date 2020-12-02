@@ -21,5 +21,9 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-rubocop",
 		"WakaTime"
+		"Package Control",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-rubocop"
 	]
 }
