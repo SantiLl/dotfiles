@@ -12,3 +12,11 @@ alias startup='open -a Brave\ Browser && open -a Slack && open -a Logi\ Options 
 
 # Kill rails server
 alias killrails='kill -9 $(lsof -i tcp:3000 -t)'
+
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
+
+# Quickly serve the current directory as HTTP
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
